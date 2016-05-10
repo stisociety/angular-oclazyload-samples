@@ -1,0 +1,12 @@
+﻿<h1>{{vm.Titulo}}</h1>
+
+<table>
+    <tr>
+        <td>Id</td>
+        <td>Nome</td>
+    </tr>
+    <tr data-ng-repeat="usuario in vm.usuarios">
+        <td>{{usuario.id}}</td>
+        <td>{{usuario.nome}}</td>
+    </tr>
+</table>

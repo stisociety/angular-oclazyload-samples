@@ -1,0 +1,35 @@
+﻿[
+  {
+    "Name": "Funcionalidade1",
+    "Routes": [
+      {
+        "Name": "func1",
+        "Url": "/func1",
+        "TemplateUrl": "app/funcionalidade1/main.html",
+        "Controller": "Funcionalidade",
+        "ControllerAs": "vm"
+      }
+    ],
+    "Dependencies": [
+      "app/funcionalidade1/funcionalidade1.module.js",
+      "app/funcionalidade1/funcionalidade1.controller.js"
+    ]
+  },
+  {
+    "Name": "Funcionalidade2",
+    "Routes": [
+      {
+        "Name": "func2",
+        "Url": "/funcionalidade2",
+        "TemplateUrl": "app/funcionalidade2/main.html",
+        "Controller": "Funcionalidade2",
+        "ControllerAs": "vm"
+      }
+    ],
+    "Dependencies": [
+      "app/funcionalidade2/funcionalidade2.module.js",
+      "app/funcionalidade2/usuarios.dataservice.js",
+      "app/funcionalidade2/funcionalidade2.controller.js"
+    ]
+  }
+]

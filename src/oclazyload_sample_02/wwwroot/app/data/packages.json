@@ -1,0 +1,19 @@
+﻿[
+  {
+    "Name": "app.package1",
+    "UseRouteFile": true,
+    "Dependencies": [
+      "app/package1/package1.module.js",
+      "app/package1/package1.controller.js",
+      "app/package1/package1.routes.js"
+    ],
+    "Route": 
+      {
+        "Name": "func2",
+        "Url": "/funcionalidade2",
+        "TemplateUrl": "app/funcionalidade2/main.html",
+        "Controller": "Funcionalidade2",
+        "ControllerAs": "vm"
+      }    
+  }
+]
