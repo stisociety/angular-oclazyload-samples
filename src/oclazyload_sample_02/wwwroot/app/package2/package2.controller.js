@@ -1,6 +1,6 @@
 ﻿(function () {
     'use strict';
-    angular.module('app.package2').controller('package2.main', MostrarDadosFuncionalidade);
+    angular.module('app.package2').controller('package2.home', MostrarDadosFuncionalidade);
 
     /* @ngInject */
     function MostrarDadosFuncionalidade(usuarioDataService)

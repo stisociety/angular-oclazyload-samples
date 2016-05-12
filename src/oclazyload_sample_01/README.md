@@ -1,4 +1,4 @@
-﻿#Exemplo utilizando rotas 100% via Json
+﻿#Sample01: Exemplo utilizando rotas 100% via Json
 
 Este exemplo utiliza o plugin [oclazyload](https://oclazyload.readme.io/) para fazer a carga de arquivos para uma aplicação angular.
 
@@ -14,4 +14,10 @@ A configuração de quais arquivos são necessários para a carga de um módulo 
 
 Toda lógica para a carga destes módulos esta no arquivo [core.config](https://github.com/stisociety/angular-oclazyload-samples/blob/master/src/oclazyload_sample_01/wwwroot/app/core/core.config.js), que é executado no momento que a aplicação principal é carregada. Assim todos os arquivos especificados são carregados na carga da aplicação sem a necessidade de referenciar estes arquivos no [index.html](https://github.com/stisociety/angular-oclazyload-samples/blob/master/src/oclazyload_sample_01/wwwroot/Index.html).
 
+##Problemas
 
+Devido a rota estar em um arquivo Json não é possível especificar uma função javascript para fazer o resolve da rota. Poderia ser utilizado o eval() mas poderiamos ter problemas de segurança.
+
+##Resumo
+
+O objetivo, carregar módulos angular de forma dinamica, foi alcaçado. Contudo se percebeu que a configuração das rotas ficou prejudicada pela simplicidade de parametros que podem ser usados no arquivo json.

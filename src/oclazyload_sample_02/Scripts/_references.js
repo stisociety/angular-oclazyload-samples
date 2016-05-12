@@ -9,6 +9,7 @@
 /// <reference path="../wwwroot/app/package1/package1.routes.js" />
 /// <reference path="../wwwroot/app/package2/package2.controller.js" />
 /// <reference path="../wwwroot/app/package2/package2.module.js" />
+/// <reference path="../wwwroot/app/package2/package2.routes.js" />
 /// <reference path="../wwwroot/app/package2/usuarios.dataservice.js" />
 /// <reference path="../wwwroot/lib/angular/angular.js" />
 /// <reference path="../wwwroot/lib/jquery/dist/jquery.js" />
